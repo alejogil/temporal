@@ -77,4 +77,4 @@ services:
       - 8081:8081
 networks:
   my-network:
-    driver: bridge
+    external: true
